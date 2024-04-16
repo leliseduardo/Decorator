@@ -7,7 +7,7 @@ public class SensorTemperaturaAgua extends SensorDecorator{
     }
 
     public float getScale(){
-        return 0.001f;
+        return 0.01f;
     }
 
     public String getTypeSensor(){

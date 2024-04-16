@@ -25,7 +25,8 @@ public abstract class SensorDecorator implements Sensor {
     public abstract String getTypeSensor();
 
     public String getStructure(){
-        return structure;
+
+        return sensor.getStructure() + " " + this.getTypeSensor();
     }
 
 }
